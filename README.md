@@ -1,16 +1,23 @@
 AngularJS 6 Example 3rd, Packtpub book 
-7/22/2019, mon
+9/25/2019, Wed
 
-chp2
+chp2 last
+
+
+#steps
+ng generate module workout-runner --module app.module.ts
+ng generate component workout-runner -is
+ng serve --open
 
 #URL
 http://localhost:4200/
 
 #mapping
-app.module.ts <- app/app.component.ts
+main.ts <- app.module.ts <- app.component.ts
+                         <- workout-runner.module.ts <- WorkoutRunnerComponent, ExerciseDescriptionComponent, VideoPlayerComponent, SecondsToTimePipe
 
 #link
-https://subscription.packtpub.com/book/web_development/9781788835176
+https://subscription.packtpub.com/book/web_development/9781788835176/2/ch02lvl1sec27/our-first-component-workoutrunnercomponent
 
 #
  and  are interpolation symbols
